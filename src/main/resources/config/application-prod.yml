@@ -18,7 +18,7 @@ spring:
         livereload:
             enabled: false
     datasource:
-        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.jdbc.jdbc2.optional.MysqlDataSource
         url: jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6154830?useUnicode=true&characterEncoding=utf8&useSSL=false
         name: sql6154830
         username: sql6154830
